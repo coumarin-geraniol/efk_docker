@@ -36,4 +36,4 @@ services:
     ports: # Runs kibana service on default port 5601
       - 5601:5601
     environment: # Defined host configuration
-      - ELASTICSEARCH_HOSTS=http://elasticsearch:9200
+      - ELASTICSEARCH_HOSTS=http://consttier.tech:9200
